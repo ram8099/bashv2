@@ -14,3 +14,10 @@ while [ "$1" != "" ]; do
     shift
 
 done
+
+sh parameter_test.sh -s myserver -d 20151225 --parameter SomeValue
+
+if [ -z $SERVER ] || [ -z $DATE ]; then
+	echo "Please specify both server and date";
+	exit 1;
+fi;
