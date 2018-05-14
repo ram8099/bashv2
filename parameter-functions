@@ -1,0 +1,12 @@
+#!/bin/bash
+func()
+{
+echo "hjbchdbvjkhnv"
+echo $0
+echo $1
+echo $2
+echo "leave...."
+exit 0
+}
+func 1223 "abc"
+
