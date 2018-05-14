@@ -1,4 +1,4 @@
-ase $VARIABLE in
+case $VARIABLE in
 		VALUE-1) # CODE BLOCK FOR VALUE-1
 			;;
 
